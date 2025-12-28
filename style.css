@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.form-box {
+    background: white;
+    width: 280px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.form-box input {
+    width: 90%;
+    padding: 6px;
+    margin: 6px 0;
+}
+
+.form-box button {
+    margin-top: 10px;
+    padding: 7px 15px;
+}
+
+.card {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: white;
+    width: 280px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 12px;
+    display: none;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+    margin: 5px 0 10px;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    padding: 8px 18px;
+    margin-top: 10px;
+}

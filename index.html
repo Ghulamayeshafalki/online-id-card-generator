@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online ID Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Online ID Card Generator</h2>
+
+<div class="form-box">
+    <input type="text" id="name" placeholder="Enter Name">
+    <input type="text" id="father" placeholder="Father Name">
+    <input type="text" id="idno" placeholder="ID Number">
+    <input type="file" id="photo">
+    <button onclick="generate()">Generate ID Card</button>
+</div>
+
+<div class="card" id="card">
+    <h3>ID CARD</h3>
+    <img id="cardPhoto">
+    <p id="cardName"></p>
+    <p id="cardFather"></p>
+    <p id="cardId"></p>
+</div>
+
+<button class="download-btn" onclick="downloadCard()">Download ID Card</button>
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
